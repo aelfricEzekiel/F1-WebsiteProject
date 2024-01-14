@@ -139,7 +139,7 @@
     display: flex;
     position: absolute;
     left: 200px;
-    top: 500px;
+    top: 30.5em;
 }
 .visit-container .visit-btn {
     border: none;
@@ -148,10 +148,11 @@
     padding: 10px 30px;
     border-radius: 10px;
     cursor: pointer;
-    transform: 0.2s;
+    transform: .0.2s;
 }
 .visit-btn:hover {
     background: black;
     color: white;
     border: none;
+    font-family: Arial, Helvetica, sans-serif;
 }
