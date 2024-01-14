@@ -25,14 +25,14 @@
 }
 .logo-box  #logo {
     position: absolute;
-    left: -23em;
+    left: -17em;
     top: -3em;
     width: 100px;
 }
 .header-bx .navbar-container {
     display: flex;
     position: relative;
-    left: -15em;
+    left: -13em;
 }
 .navbar-container .nav {
     padding: 0 50px;
@@ -47,7 +47,7 @@
 .navbar-container .nav #home::after {
     content: "";
     position: absolute;
-    left: 20px;
+    left: 3.5em;
     top: 30px;
     height: 2px;
     width: 60px;
@@ -62,7 +62,7 @@
 .navbar-container .nav #projects::after {
     content: "";
     position: absolute;
-    left: 120px;
+    left: 8.5em;
     top: 30px;
     height: 2px;
     width: 80px;
@@ -77,7 +77,7 @@
 .navbar-container .nav #articles::after {
     content: "";
     position: absolute;
-    left: 240px;
+    left: 14.5em;
     top: 30px;
     height: 2px;
     width: 74px;
@@ -92,10 +92,10 @@
 .navbar-container .nav #tutorials::after {
     content: "";
     position: absolute;
-    left: 355px;
+    left: 20.2em;
     top: 30px;
     height: 2px;
-    width: 80px;
+    width: 85px;
     background: greenyellow;
     transform: scaleX(0);
     transform-origin: center;
@@ -107,7 +107,7 @@
 .navbar-container .nav #events::after {
     content: "";
     position: absolute;
-    left: 24em;
+    left: 26.4em;
     top: 30px;
     height: 2px;
     width: 65px;
@@ -119,10 +119,10 @@
 .navbar-container .nav #events:hover::after{
     transform: scaleX(1);
 }
-.navbar-container .nav #about::after {
+.navbar-container .nav #aboutUs::after {
     content: "";
     position: absolute;
-    left: 29.2em;
+    left: 31.6em;
     top: 30px;
     height: 2px;
     width: 65px;
@@ -131,7 +131,7 @@
     transform-origin: center;
     transition: transform .2s;
 }
-.navbar-container .nav #about:hover::after{
+.navbar-container .nav #aboutUs:hover::after{
     transform: scaleX(1);
 }
 /* Visits Us Button */
