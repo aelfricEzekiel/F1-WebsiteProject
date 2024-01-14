@@ -1,0 +1,157 @@
+*{
+    margin: 0;
+    padding: 0;
+    scroll-behavior: smooth;
+}
+.container {
+    background-image:  url("img/F1Stackmind.gif");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    min-width: 100%;
+    min-height: 100vh;
+}
+.header-bx {
+    min-width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 15vh;
+}
+.header-bx .logo-box {
+    display: flex;
+    position: relative;
+    cursor: pointer;
+}
+.logo-box  #logo {
+    position: absolute;
+    left: -23em;
+    top: -3em;
+    width: 100px;
+}
+.header-bx .navbar-container {
+    display: flex;
+    position: relative;
+    left: -15em;
+}
+.navbar-container .nav {
+    padding: 0 50px;
+}
+.navbar-container .nav .nav-links {
+    text-decoration: none;
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 20px;
+    padding: 0 20px;
+}
+.navbar-container .nav #home::after {
+    content: "";
+    position: absolute;
+    left: 20px;
+    top: 30px;
+    height: 2px;
+    width: 60px;
+    background-color: greenyellow;
+    transform: scaleX(0);
+    transform-origin: center;
+    transition: transform .2s;
+}
+.navbar-container .nav #home:hover::after{
+    transform: scaleX(1);
+}
+.navbar-container .nav #projects::after {
+    content: "";
+    position: absolute;
+    left: 120px;
+    top: 30px;
+    height: 2px;
+    width: 80px;
+    background-color: greenyellow;
+    transform: scaleX(0);
+    transform-origin: center;
+    transition: transform .2s;
+}
+.navbar-container .nav #projects:hover::after{
+    transform: scaleX(1);
+}
+.navbar-container .nav #articles::after {
+    content: "";
+    position: absolute;
+    left: 240px;
+    top: 30px;
+    height: 2px;
+    width: 74px;
+    background-color: greenyellow;
+    transform: scaleX(0);
+    transform-origin: center;
+    transition: transform .2s;
+}
+.navbar-container .nav #articles:hover::after{
+    transform: scaleX(1);
+}
+.navbar-container .nav #tutorials::after {
+    content: "";
+    position: absolute;
+    left: 355px;
+    top: 30px;
+    height: 2px;
+    width: 80px;
+    background: greenyellow;
+    transform: scaleX(0);
+    transform-origin: center;
+    transition: transform .2s;
+}
+.navbar-container .nav #tutorials:hover::after{
+    transform: scaleX(1);
+}
+.navbar-container .nav #events::after {
+    content: "";
+    position: absolute;
+    left: 24em;
+    top: 30px;
+    height: 2px;
+    width: 65px;
+    background: greenyellow;
+    transform: scaleX(0);
+    transform-origin: center;
+    transition: transform .2s;
+}
+.navbar-container .nav #events:hover::after{
+    transform: scaleX(1);
+}
+.navbar-container .nav #about::after {
+    content: "";
+    position: absolute;
+    left: 29.2em;
+    top: 30px;
+    height: 2px;
+    width: 65px;
+    background: greenyellow;
+    transform: scaleX(0);
+    transform-origin: center;
+    transition: transform .2s;
+}
+.navbar-container .nav #about:hover::after{
+    transform: scaleX(1);
+}
+/* Visits Us Button */
+.visit-container {
+    display: flex;
+    position: absolute;
+    left: 200px;
+    top: 500px;
+}
+.visit-container .visit-btn {
+    border: none;
+    background-color: white;
+    text-align: center;
+    padding: 10px 30px;
+    border-radius: 10px;
+    cursor: pointer;
+    transform: 0.2s;
+}
+.visit-btn:hover {
+    background: black;
+    color: white;
+    border: none;
+}
