@@ -12,7 +12,6 @@
     min-height: 100vh;
 }
 .header-bx {
-    min-width: 100%;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -155,4 +154,29 @@
     color: white;
     border: none;
     font-family: Arial, Helvetica, sans-serif;
+}
+/* Project Page */
+.project-container {
+    background-color: blue;
+    height: 100vh;
+}
+/* Articles Page */
+.article-container {
+    height: 100vh;
+    background-color: aquamarine;
+}
+/* Tutorials Page */
+.tutorial-container {
+    background-color: deepskyblue;
+    height: 100vh;
+}
+/* Events Page */
+.events-container {
+    background-color: lawngreen;
+    height: 100vh;
+}
+/* About Us Page */
+.about-container {
+    height: 100vh;
+    background-color: greenyellow;
 }
