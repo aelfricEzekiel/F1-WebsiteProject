@@ -30,6 +30,7 @@
 }
 .header-bx .navbar-container {
     display: flex;
+    gap: 20px;
     position: relative;
     left: -13em;
 }
